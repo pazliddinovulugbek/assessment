@@ -278,17 +278,17 @@ select {
   }
 }
 
-@media only screen and (max-width:350px) {
+@media only screen and (max-width:300px) {
   main {
-    width: 350px;
+    width: 300px;
   }
 
   .head_section {
-    width: 330px;
+    width: 300px;
   }
 
   table {
-    width: 307px;
+    width: 270px;
     margin: auto;
     margin-top: 20px;
   }
