@@ -136,24 +136,29 @@ select {
   .one_head_section input::placeholder {
     font-size: 12px;
   }
-  .btn_cart{
+
+  .btn_cart {
     display: flex;
     gap: 10px;
   }
-  .btn_cart button{
+
+  .btn_cart button {
     width: 80px;
     height: 30px;
     font-size: 12px;
   }
-  table{
+
+  table {
     width: 360px;
 
   }
+
   tbody td,
-  thead th{
+  thead th {
     font-size: 14px;
   }
-  select{
+
+  select {
     width: 40px;
     height: 20px;
     font-size: 14px;
