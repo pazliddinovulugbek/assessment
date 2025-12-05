@@ -166,20 +166,101 @@ select {
 }
 
 
-@media (max-width:350px) {
+@media only screen and (max-width:900px) {
   main {
-    width: 350px;
+    width: 900px;
   }
 
   .head_section {
-    width: 350px;
+    width: 880px;
+  }
+
+  table {
+    width: 850px;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
+
+@media only screen and (max-width:500px) {
+  main {
+    width: 500px;
+  }
+
+  .head_section {
+    width: 480px;
+  }
+
+  table {
+    width: 450px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  table td,
+  table th {
+    font-size: 16px;
+  }
+
+  table select {
+    width: 35px;
+    font-size: 16px;
+    height: 20px;
   }
 
   .one_head_section input {
+    width: 200px;
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .one_head_section input::placeholder {
+    font-size: 14px;
+  }
+
+  .btn_cart {
+    gap: 10px;
+  }
+
+  .btn_cart button {
+    width: 90px;
+    height: 35px;
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (max-width:400px) {
+  main {
+    width: 400px;
+  }
+
+  .head_section {
+    width: 380px;
+  }
+
+  table {
+    width: 350px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  table td,
+  table th {
+    font-size: 14px;
+  }
+
+  table select {
+    width: 35px;
     font-size: 12px;
-    height: 30px;
-    padding: 2px;
-    width: 100px;
+    height: 20px;
+  }
+
+  .one_head_section input {
+    width: 170px;
+    height: 33px;
+    font-size: 12px;
   }
 
   .one_head_section input::placeholder {
@@ -187,29 +268,12 @@ select {
   }
 
   .btn_cart {
-    display: flex;
     gap: 10px;
   }
 
   .btn_cart button {
     width: 80px;
-    height: 30px;
+    height: 33px;
     font-size: 12px;
-  }
-
-  table {
-    width: 360px;
-
-  }
-
-  tbody td,
-  thead th {
-    font-size: 14px;
-  }
-
-  select {
-    width: 40px;
-    height: 20px;
-    font-size: 14px;
   }
 }
