@@ -277,3 +277,50 @@ select {
     font-size: 12px;
   }
 }
+
+@media only screen and (max-width:350px) {
+  main {
+    width: 350px;
+  }
+
+  .head_section {
+    width: 330px;
+  }
+
+  table {
+    width: 307px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  table td,
+  table th {
+    font-size: 11px;
+  }
+
+  table select {
+    width: 35px;
+    font-size: 11px;
+    height: 20px;
+  }
+
+  .one_head_section input {
+    width: 130px;
+    height: 30px;
+    font-size: 11px;
+  }
+
+  .one_head_section input::placeholder {
+    font-size: 11px;
+  }
+
+  .btn_cart {
+    gap: 2px;
+  }
+
+  .btn_cart button {
+    width: 60px;
+    height: 30px;
+    font-size: 9px;
+  }
+}
